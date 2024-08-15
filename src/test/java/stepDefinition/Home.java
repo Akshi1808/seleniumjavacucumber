@@ -8,9 +8,8 @@ import static pages.Home.*;
 public class Home {
 
     @Given("User navigates to the Login page")
-    public void user_navigates_to_the_login_page() throws InterruptedException {
-        Allure.feature("Given");
-        Allure.addAttachment("HTML Snapshot","text/html", driver.getPageSource(), "html");
+    public void User_navigates_to_the_Login_page() throws InterruptedException {
+
         click_hamburger_menu();
         click_signIn_link();
 
